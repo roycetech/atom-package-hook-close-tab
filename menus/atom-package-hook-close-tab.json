@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-package-hook-close-tab",
+        "command": "atom-package-hook-close-tab:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-package-hook-close-tab",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-package-hook-close-tab:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
